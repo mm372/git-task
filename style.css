@@ -1,7 +1,77 @@
-.box1{
-    display: flex;
-    flex-direction: row;
-    background-color: blueviolet;
-    top: 0px;
-  height: 50px;
+p{
+line-height: 160px;
+}
+ul li{
+  list-style-type: none;
+}
+button,
+input{
+  background-color: blueviolet;
+border:white;
+font-size: 30px;
+}
+.search{
+  font-size: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: blueviolet;
+  font-size: 40px;
+  height: 60px;
+  width: 100%;
+  position:relative;
+}
+.tips{
+  padding-top: 5px;
+  margin-left: 0px;
+  color: blueviolet;
+  font-size: 40px;
+  text-underline-position: below;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+}
+.submenu{
+  padding-top: -100px;
+  padding-left: 300px;
+  display: flex;
+ justify-content: space-around;
+  height: 4px;
+  position:absolute;
+  color: black;
+  font-size: 20px;
+}
+.subnav{
+  padding-top: 200px;
+  padding-left: 60px;
+  display: flex;
+  flex-flow: flex-start;
+  color: blueviolet;
+  font-size: 40px;
+  width: 100%;
+  position: absolute;
+}
+.tab{
+  margin-top: 200px;
+  padding-left: 400px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100px;
+ position: absolute;
+}
+.msg{
+  padding-top: 330px;
+  padding-left: 350px;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  color: black;
+  height: 4px;
+  font-size: 20px;
+  position: absolute;
 }
